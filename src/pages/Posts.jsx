@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 export default function Posts() {
   return (
     <>
-      <Header />
       <main>
         <div className="container mt-5">
           <div className="row">
@@ -46,7 +45,6 @@ export default function Posts() {
           </div>
         </div>
       </main>
-      <Footer />
     </>
   );
 }
