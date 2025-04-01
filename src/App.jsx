@@ -10,9 +10,9 @@ export default function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" Component={Home} />
-          <Route path="/Info" Component={Info} />
-          <Route path="/Posts" Component={Posts} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Info" element={<Info />} />
+          <Route path="/Posts" element={<Posts />} />
         </Routes>
       </BrowserRouter>
     </>
