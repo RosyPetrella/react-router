@@ -4,7 +4,7 @@ export default function Info() {
       <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
           <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
               Home
             </a>
             <button
@@ -21,13 +21,13 @@ export default function Info() {
             <div class="collapse navbar-collapse" id="collapsibleNavId">
               <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#" aria-current="page">
+                  <a class="nav-link active" href="/Info" aria-current="page">
                     About us
                     <span class="visually-hidden">(current)</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="/Posts">
                     Posts
                   </a>
                 </li>
