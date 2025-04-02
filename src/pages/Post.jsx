@@ -19,19 +19,23 @@ export default function Post() {
       .catch((err) => {
         console.log("ERROR", err);
       });
-  }, []);
+  }, [slug]);
 
   return (
     <>
       <main>
-        {!Post ? (
+        {!posts ? (
           "..Loading"
         ) : (
           <>
             <div className="container">
               <div className="row g-2">
                 <div className="col-12 col-md-5">
-                  <img className="img-fluid" src={posts.image} alt="" />
+                  <img
+                    className="img-fluid"
+                    src={`http://localhost:3003${posts.image}`}
+                    alt=""
+                  />
                 </div>
                 <div className="col-12 col-md-5">
                   <button className="back" onClick={() => navigate(-1)}>

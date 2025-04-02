@@ -23,8 +23,17 @@ export default function Posts() {
                 key={post.slug}
               >
                 <div className="card">
-                  <div className="card-title">{post.title}</div>
-                  <div className="card-body">{post.content}</div>
+                  <h2 className="card-title text-center pt-3 mt-2">
+                    {post.title}
+                  </h2>
+                  <div className="card-body text-center">
+                    {post.content}
+                    <div>
+                      <button className="btn btn-light mt-2">
+                        <Link to={`/posts/${post.slug}`}>Show more</Link>
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
