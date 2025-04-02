@@ -12,11 +12,12 @@ export default function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route element={<DefaultLayout />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/Info" element={<Info />} />
-          <Route path="/Posts" element={<Posts />} />
-          <Route path="/Posts/:slug" element={<Post />} />
+          <Route element={<DefaultLayout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/Info" element={<Info />} />
+            <Route path="/Posts" element={<Posts />} />
+            <Route path="/Posts/:slug" element={<Post />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>

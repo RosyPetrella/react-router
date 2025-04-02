@@ -1,5 +1,3 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
@@ -24,14 +22,6 @@ export default function Home() {
               Sono viaggiatori del tempo, esploratori galattici e guardiani
               dell’umanità. Alcuni provengono dal futuro, altri da mondi
               lontanissimi. Ognuno di loro ha una storia unica da raccontare.
-            </p>
-            <p className="lead">
-              <a
-                href="#"
-                className="btn btn-lg btn-light fw-bold border-white bg-white"
-              >
-                Learn more
-              </a>
             </p>
           </main>
         </div>
