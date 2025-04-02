@@ -6,7 +6,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            Home
+            🐾 Cosmic Cats
           </NavLink>
           <button
             className="navbar-toggler d-lg-none"
@@ -33,7 +33,7 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Posts">
-                  Posts
+                  Galactic Stories
                 </NavLink>
               </li>
             </ul>

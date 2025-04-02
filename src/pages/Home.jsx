@@ -6,25 +6,24 @@ export default function Home() {
       <main>
         <div className="p-5 mb-4 bg-light rounded-3">
           <div className="container-fluid py-5">
-            <h1 className="display-5 fw-bold">Custom jumbotron</h1>
+            <h1 className="display-5 fw-bold">I Gatti Galattici</h1>
             <p className="col-md-8 fs-4">
-              Using a series of utilities, you can create this jumbotron, just
-              like the one in previous versions of Bootstrap. Check out the
-              examples below for how you can remix and restyle it to your
-              liking.
+              Benvenuti nel blog dedicato ai gatti del futuro e agli antichi
+              guardiani stellari. Esploreremo le loro origini, le loro
+              incredibili abilità e il loro legame con l’umanità.
             </p>
             <button className="btn btn-primary btn-lg" type="button">
-              Example button
+              Scopri le Storie
             </button>
           </div>
         </div>
         <div classNameName="container">
           <main className="px-3">
-            <h1>Cover your page.</h1>
+            <h1>Chi sono i Gatti Stellari?</h1>
             <p className="lead">
-              Cover is a one-page template for building simple and beautiful
-              home pages. Download, edit the text, and add your own fullscreen
-              background photo to make it your own.
+              Sono viaggiatori del tempo, esploratori galattici e guardiani
+              dell’umanità. Alcuni provengono dal futuro, altri da mondi
+              lontanissimi. Ognuno di loro ha una storia unica da raccontare.
             </p>
             <p className="lead">
               <a

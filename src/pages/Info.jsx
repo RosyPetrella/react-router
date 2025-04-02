@@ -17,17 +17,18 @@ export default function Info() {
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
               >
-                <title>Placeholder</title>
+                <title>🐾 Orion</title>
                 <rect
                   width="100%"
                   height="100%"
                   fill="var(--bs-secondary-color)"
                 ></rect>
               </svg>
-              <h2 className="fw-normal mt-3">Heading</h2>
+              <h2 className="fw-normal mt-3">🐾 Orion</h2>
               <p>
-                Some representative placeholder content for the three columns of
-                text below the carousel. This is the first column.
+                Il più antico dei gatti guardiani, ha osservato la Terra per
+                millenni. Si dice che abbia viaggiato attraverso i buchi neri e
+                conosca i segreti dell’universo.
               </p>
             </div>
             <div className="col-lg-4">
@@ -48,10 +49,11 @@ export default function Info() {
                   fill="var(--bs-secondary-color)"
                 ></rect>
               </svg>
-              <h2 className="fw-normal mt-3">Heading</h2>
+              <h2 className="fw-normal mt-3">✨ Bastet</h2>
               <p>
-                Another exciting bit of representative placeholder content. This
-                time, we've moved on to the second column.
+                Figlia dell’antico Egitto, Bastet ha guidato i faraoni con la
+                sua saggezza. Oggi, continua a proteggere i gatti terrestri e a
+                tramandare la loro conoscenza.
               </p>
             </div>
             <div className="col-lg-4">
@@ -72,10 +74,10 @@ export default function Info() {
                   fill="var(--bs-secondary-color)"
                 ></rect>
               </svg>
-              <h2 className="fw-normal mt-3">Heading</h2>
+              <h2 className="fw-normal mt-3">🌙 Nyx</h2>
               <p>
-                And lastly this, the third column of representative placeholder
-                content.
+                Un enigma avvolto nell’ombra. Si dice che Nyx possa viaggiare
+                tra le dimensioni e comunicare con gli esseri di energia pura.
               </p>
             </div>
           </div>
